@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body,
+textarea,
+input {
+	line-height: 1.5;
+	font-weight: 400;
+	color: #000;
+	font-family: 'Gilroy', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+
+p, ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+/* General Classes start */
+/* General Classes End */
+
+/* Header start */
+/* Header end */
+
+/* Banner start */
+/* Banner End */
+
+/* Footer start */
+/* Footer end */
+
+/* Responsive start */
+
+/* Desktop first */
+
+@media only screen and (min-width: 1920px) {}
+
+@media only screen and (min-width: 1600px) {}
+
+@media only screen and (min-width: 1440px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 360px) {}
+
+/* Responsive end */
