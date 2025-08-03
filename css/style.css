@@ -1,61 +1,195 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body,
 textarea,
 input {
-	line-height: 1.5;
-	font-weight: 400;
-	color: #000;
-	font-family: 'Gilroy', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #000;
+  font-family: "poppins", sans-serif;
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
-	text-decoration: none;
-	color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 400;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
 }
 
-p, ul, ol {
-	margin: 0;
-	padding: 0;
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 img {
-	max-width: 100%;
-	display: block;
-	height: auto;
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
 /* General Classes start */
+
+.container {
+  max-width: 1324px;
+  margin: 0 auto;
+}
+
+.general-btn {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.55px;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #dde22f;
+}
+
 /* General Classes End */
 
 /* Header start */
+
+header {
+  position: relative;
+}
+
+header .navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 57px 0;
+}
+
+.navbar .navbar-brand {
+  height: 110px;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 45px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+}
+
+.navbar-nav .dropdown-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.navbar-nav .sign-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.navbar-nav .nav-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.nav-btn .top-up-btn {
+  padding: 21px 51px;
+  color: #000;
+}
+
+.nav-btn .sim-btn {
+  padding: 21px 51px;
+  background-color: #064f92;
+  color: #fff;
+  border-radius: 6px;
+}
+
 /* Header end */
 
 /* Banner start */
+
+.banner {
+  background-image: url("/src/images/banner-image.png");
+  background-size: cover;
+  background-position: 0 57px;
+  background-repeat: no-repeat;
+  background-color: #2096d3;
+  padding: 317px 0 217px 0;
+}
+
+.banner .banner-content {
+  text-align: center;
+  max-width: 730px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.banner-content span {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 44px;
+}
+
+.banner-content h1 {
+  font-size: 88px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 49px;
+}
+
+.banner-content p {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 50.5px;
+  max-width: 569px;
+  margin: 0 auto 49px auto;
+}
+
+.banner-content .banner-btn {
+  padding: 22px 44px;
+  border-radius: 6px;
+}
+
 /* Banner End */
 
 /* Footer start */
@@ -65,20 +199,28 @@ img {
 
 /* Desktop first */
 
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {
+}
 
-@media only screen and (min-width: 1600px) {}
+@media only screen and (min-width: 1600px) {
+}
 
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {
+}
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+}
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+}
 
-@media only screen and (min-width: 576px) {}
+@media only screen and (min-width: 576px) {
+}
 
-@media only screen and (min-width: 360px) {}
+@media only screen and (min-width: 360px) {
+}
 
 /* Responsive end */
