@@ -201,6 +201,45 @@ header .navbar {
   width: 100%;
 }
 
+.top-up .top-up-inner {
+	position: absolute;
+	padding: 29px 54px 32px;
+	background: #ffffff;
+	width: 100%;
+	max-width: 1348px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: -70px 0 0 0;
+}
+
+.top-up-inner .fast-top-up-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  font-size: 29px;
+font-weight: 600;
+line-height: normal;
+color: #064F91;
+}
+
+.top-up-inner .top-up-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+
+.top-up-form .credit-choice {
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
 /* Top up End */
 
 /* content end */
