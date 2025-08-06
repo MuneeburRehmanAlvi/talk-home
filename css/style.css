@@ -238,6 +238,10 @@ color: #064F91;
   justify-content: center;
 }
 
+.mobile-btn {
+  display: none;
+}
+
 
 
 /* Top up End */
