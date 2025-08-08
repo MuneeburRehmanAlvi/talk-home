@@ -272,6 +272,22 @@ header .navbar {
   transition: 0.3s;
 }
 
+.top-up-form .form-phone input {
+	background-color: #ffffff;
+	border: 2px solid #cccccc;
+	padding: 17px 25px;
+	width: 360px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.3;
+	color: #000000;
+}
+
+.top-up-form .form-phone input:focus {
+	background: none;
+	box-shadow: none;
+}
+
 .mobile-btn {
   display: none;
 }
