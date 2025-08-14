@@ -395,6 +395,52 @@ header .navbar {
 
 /* Mobile bill end */
 
+/* your sim start */
+
+.your-sim {
+  background-color: #064F92;
+  padding: 23px 0;
+}
+
+.your-sim .your-sim-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-sim-inner .your-sim-content {
+  color: #FFF
+}
+
+.your-sim-content p {
+  font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 26px;
+padding-top: 30px;
+}
+
+.your-sim-content h3 {
+  font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: 58.4px;
+padding-top: 20px;
+}
+
+.your-sim-content h3 span {
+  color: #DDE22F;
+}
+
+.your-sim-inner .your-sim-btn {
+  padding: 19px 40px;
+  border-radius: 4px;
+}
+
+
+/* your sim end */
+
 /* content end */
 
 /* Footer start */
