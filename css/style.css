@@ -442,6 +442,12 @@ padding-top: 20px;
 /* your sim end */
 
 /* Borderless start */
+
+.borderless {
+  padding: 90px 0;
+	background-color: #dcf2fb;
+}
+
 /* Borderless end */
 
 /* content end */
