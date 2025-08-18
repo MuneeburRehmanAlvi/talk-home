@@ -448,6 +448,10 @@ padding-top: 20px;
 	background-color: #dcf2fb;
 }
 
+.borderless-inner {
+  text-align: center;
+}
+
 /* Borderless end */
 
 /* content end */
