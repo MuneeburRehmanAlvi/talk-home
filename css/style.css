@@ -325,7 +325,7 @@ header .navbar {
 /* Mobile bill start */
 
 .mobile-bill {
-  padding: 130px  0;
+  padding: 130px 0;
 }
 
 .mobile-bill .mobile-bill-inner {
@@ -398,7 +398,7 @@ header .navbar {
 /* your sim start */
 
 .your-sim {
-  background-color: #064F92;
+  background-color: #064f92;
   padding: 23px 0;
 }
 
@@ -410,27 +410,27 @@ header .navbar {
 }
 
 .your-sim-inner .your-sim-content {
-  color: #FFF
+  color: #fff;
 }
 
 .your-sim-content p {
   font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 26px;
-padding-top: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  padding-top: 30px;
 }
 
 .your-sim-content h3 {
   font-size: 26px;
-font-style: normal;
-font-weight: 400;
-line-height: 58.4px;
-padding-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58.4px;
+  padding-top: 20px;
 }
 
 .your-sim-content h3 span {
-  color: #DDE22F;
+  color: #dde22f;
 }
 
 .your-sim-inner .your-sim-btn {
@@ -438,18 +438,69 @@ padding-top: 20px;
   border-radius: 4px;
 }
 
-
 /* your sim end */
 
 /* Borderless start */
 
 .borderless {
   padding: 90px 0;
-	background-color: #dcf2fb;
+  background-color: #dcf2fb;
 }
 
 .borderless-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.borderless-inner .borderless-content {
+  max-width: 533px;
+}
+
+.borderless-content h2 {
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52.556px;
+  color: #353535;
+  margin-bottom: 44px;
+}
+
+.borderless-content p {
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 33.998px;
+  color: #535353;
+  margin-bottom: 49px;
+}
+
+.borderless-content .borderless-btn {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+  color: #000;
+  padding: 20px 56px;
+}
+
+.borderless-inner .borderless-video {
+  background-image: url(/src/images/borderless-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 600px;
+  padding: 180px 0;
   text-align: center;
+}
+
+.borderless-video .video-btn {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  padding: 29px 29px 29px 32px;
 }
 
 /* Borderless end */

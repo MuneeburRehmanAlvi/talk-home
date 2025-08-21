@@ -289,13 +289,59 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <video class="talk-video" controls>
-                <source src="video/video.mp4" type="video/mp4" />
-              </video>
+              <div class="borderless-video">
+                <a
+                  href="#"
+                  class="video-btn btn rounded-circle"
+                  data-bs-toggle="modal"
+                  data-bs-target="#videoModal"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="19"
+                    height="23"
+                    viewBox="0 0 19 23"
+                    fill="none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.444336 0.474121L18.2343 11.2606L0.444336 22.0498"
+                      fill="#064F92"
+                    />
+                  </svg>
+                </a>
+
+                <!-- Video Modal -->
+                <div
+                  class="modal fade"
+                  id="videoModal"
+                  tabindex="-1"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-body p-0">
+                        <div class="ratio ratio-16x9">
+                          <iframe
+                            id="videoFrame"
+                            src="https://www.youtube.com/embed/gIjiQVbHO2Q"
+                            title="YouTube video"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                          >
+                          </iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
       <!-- Borderless End -->
     </div>
 
