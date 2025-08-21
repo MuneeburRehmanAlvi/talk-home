@@ -594,19 +594,63 @@ header .navbar {
 
 .faq-content h2 {
   font-size: 43px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-color: #353535;
-margin-bottom: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #353535;
+  margin-bottom: 36px;
 }
 
 .faq-content p {
   font-size: 19px;
-font-style: normal;
-font-weight: 300;
-line-height: 33.998px;
-color: #535353;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 33.998px;
+  color: #535353;
+}
+
+.faq .accordion {
+  max-width: 1096px;
+  margin: 66px auto 0 auto;
+}
+
+.faq .accordion-item {
+  margin-bottom: 31px;
+  border: none;
+}
+
+.faq .accordion-item .accordion-button {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  background-color: #ffffff;
+}
+
+.faq .accordion-item .accordion-body {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 33.998px;
+  color: #535353;
+}
+
+.accordion-button::after {
+  content: "+";
+  background: none;
+  transform: none !important;
+  transition: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "–";
+  background: none;
+  transform: none !important;
 }
 
 /* FAQ end */
