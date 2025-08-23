@@ -627,6 +627,11 @@ header .navbar {
   color: #000;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none !important; /* removes the subtle inset shadow */
+}
+
 .accordion-button:focus {
   box-shadow: none;
   background-color: #ffffff;
@@ -658,6 +663,90 @@ header .navbar {
 /* content end */
 
 /* Footer start */
+
+footer {
+  padding: 94px 0 54px 0;
+  background-color: #273240;
+  color: #FFFFFF;
+}
+
+footer .footer-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+
+.footer-row .footer-links-heading {
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 34px;
+color: #DDE22F;
+}
+
+.footer-row ul li a {
+font-size: 13px;
+font-style: normal;
+font-weight: 300;
+line-height: 34.3px;
+opacity: 0.8;
+}
+
+.footer-row ul li a:hover {
+  color: #DDE22F;
+  transition: all 0.3s ease;
+}
+
+footer .footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 44px;
+}
+
+.footer-bottom .footer-bottom-links {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.footer-bottom-links li a {
+font-size: 13px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.footer-bottom ul li a:hover {
+  color: #DDE22F;
+  transition: all 0.3s ease;
+}
+
+.footer-bottom .footer-social-icon {
+  display: inline-flex;
+  gap: 30px;
+}
+
+.footer-social-icon li a {
+  font-size: 23px;
+}
+
+.footer-social-icon li a:hover {
+  color: #DDE22F;
+  transition: all 0.3s ease;
+}
+
+.footer-bottom .copyright {
+  margin-top: 30px;
+}
+
+.copyright p {
+  font-size: 15px;
+	font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
 /* Footer end */
 
 /* Responsive start */
