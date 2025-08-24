@@ -751,12 +751,15 @@ line-height: normal;
 
 #backToTopBtn {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 64px;
+	right: 34px;
+  outline: none;
   display: none; /* Hidden by default */
   z-index: 99;
   transition: opacity 0.3s ease;
   background-color: #DDE22F;
+  border-radius: 50%;
+  padding: 29px 25px;
 }
 
 /* Responsive start */
