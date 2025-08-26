@@ -667,7 +667,7 @@ header .navbar {
 footer {
   padding: 94px 0 54px 0;
   background-color: #273240;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 footer .footer-row {
@@ -677,24 +677,24 @@ footer .footer-row {
 }
 
 .footer-row .footer-links-heading {
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-bottom: 34px;
-color: #DDE22F;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 34px;
+  color: #dde22f;
 }
 
 .footer-row ul li a {
-font-size: 13px;
-font-style: normal;
-font-weight: 300;
-line-height: 34.3px;
-opacity: 0.8;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 34.3px;
+  opacity: 0.8;
 }
 
 .footer-row ul li a:hover {
-  color: #DDE22F;
+  color: #dde22f;
   transition: all 0.3s ease;
 }
 
@@ -711,14 +711,14 @@ footer .footer-bottom {
 }
 
 .footer-bottom-links li a {
-font-size: 13px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 .footer-bottom ul li a:hover {
-  color: #E22FDD;
+  color: #e22fdd;
   transition: all 0.3s ease;
 }
 
@@ -732,7 +732,7 @@ line-height: normal;
 }
 
 .footer-social-icon li a:hover {
-  color: #DDE22F;
+  color: #dde22f;
   transition: all 0.3s ease;
 }
 
@@ -742,9 +742,9 @@ line-height: normal;
 
 .copyright p {
   font-size: 15px;
-	font-style: normal;
-font-weight: 300;
-line-height: normal;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 /* Footer end */
@@ -752,12 +752,12 @@ line-height: normal;
 #backToTopBtn {
   position: fixed;
   bottom: 64px;
-	right: 34px;
+  right: 34px;
   outline: none;
   display: none; /* Hidden by default */
   z-index: 99;
   transition: opacity 0.3s ease;
-  background-color: #DDE22F;
+  background-color: #dde22f;
   border-radius: 50%;
   padding: 29px 25px;
 }
