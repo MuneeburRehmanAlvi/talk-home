@@ -867,7 +867,122 @@ footer .footer-bottom {
   /* Customer end */
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1199px) {
+  /* Header start */
+
+  .navbar .navbar-nav {
+    gap: 20px;
+  }
+
+  /* Header end */
+
+  /* Banner start */
+
+  .banner {
+    padding: 259px 0 169px 0;
+  }
+
+  .banner-content span {
+    font-size: 25px;
+  }
+
+  .banner-content h1 {
+    font-size: 72px;
+    margin-bottom: 22px;
+  }
+
+  .banner-content p {
+    font-size: 20px;
+  }
+
+  /* Banner end */
+
+  /* Top up start */
+
+  .top-up-inner .fast-top-up-icon {
+    gap: 7px;
+    font-size: 27px;
+  }
+
+  .top-up .top-up-inner {
+    padding: 29px 34px 32px;
+  }
+
+  .top-up-inner .top-up-form {
+    gap: 18px;
+  }
+
+  .top-up-form .credit-choice {
+    gap: 14px;
+  }
+
+  /* Top up end */
+
+  /* Mobile bill start */
+
+  .mobile-bill {
+    padding: 90px 0;
+  }
+
+  .mobile-bill-inner .mobile-bill-heading {
+    font-size: 39px;
+    line-height: 64.7px;
+    margin: 0 auto 22px auto;
+  }
+
+  .mobile-bill-inner .mobile-bill-point {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  /* Mobile bill end */
+
+  /* Borderless start */
+
+  .borderless {
+    padding: 79px 0;
+  }
+
+  .borderless-content h2 {
+    font-size: 39px;
+    margin-bottom: 38px;
+  }
+
+  .borderless-inner .borderless-video {
+    padding: 154px 0;
+  }
+
+  /* Borderless end */
+
+  /* Customer start */
+
+  .customers {
+    padding: 90px 0;
+  }
+
+  .customers-content h2 {
+    font-size: 39px;
+    margin-bottom: 20px;
+  }
+
+  .customers .review-card {
+    margin-top: 72px;
+  }
+
+  /* Customer end */
+
+  /* FAQ start */
+
+  .faq {
+    padding: 90px 0;
+  }
+
+  .faq-content h2 {
+    font-size: 39px;
+    margin-bottom: 20px;
+  }
+
+  /* FAQ end */
 }
 
 @media only screen and (min-width: 992px) {
