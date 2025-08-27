@@ -761,7 +761,7 @@ footer .footer-bottom {
 
 /* Responsive start Desktop first  */
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1440px) {
   /* Header start */
 
   .navbar .navbar-nav {
@@ -769,13 +769,9 @@ footer .footer-bottom {
   }
 
   /* Header end */
-
-  /* customer start */
-
-  /* customer end */
 }
 
-@media only screen and (min-width: 1320px) {
+@media only screen and (max-width: 1320px) {
   /* Header start */
 
   .navbar .navbar-nav {
@@ -867,12 +863,16 @@ footer .footer-bottom {
   /* Customer end */
 }
 
-@media only screen and (min-width: 1199px) {
+@media only screen and (max-width: 1199px) {
   /* Header start */
 
   .navbar .navbar-nav {
-    gap: 20px;
+    gap: 12px;
   }
+
+  .navbar-nav .nav-link {
+    font-size: 16px;;
+}
 
   /* Header end */
 
@@ -899,13 +899,15 @@ footer .footer-bottom {
 
   /* Top up start */
 
-  .top-up-inner .fast-top-up-icon {
-    gap: 7px;
-    font-size: 27px;
-  }
-
   .top-up .top-up-inner {
     padding: 29px 34px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .top-up-inner .fast-top-up-icon {
+    margin-bottom: 40px;
   }
 
   .top-up-inner .top-up-form {
@@ -985,16 +987,16 @@ footer .footer-bottom {
   /* FAQ end */
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 576px) {
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 360px) {
 }
 
 /* Responsive end */
