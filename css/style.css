@@ -60,7 +60,7 @@ img {
 
 .container {
   max-width: 1324px;
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 .general-btn {
@@ -223,7 +223,7 @@ header .navbar {
 }
 
 .top-up .top-up-inner {
-  position: absolute;
+  position: relative;
   padding: 29px 54px 32px;
   background: #ffffff;
   width: 100%;
@@ -232,7 +232,7 @@ header .navbar {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: -70px 0 0 0;
+  margin: -70px auto 0 auto;
 }
 
 .top-up-inner .fast-top-up-icon {
@@ -536,9 +536,6 @@ header .navbar {
 }
 
 .customers .review-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 94px;
 }
 
@@ -546,7 +543,7 @@ header .navbar {
   padding: 43px 37px;
   background-color: #ffffff;
   border-radius: 12px;
-  max-width: 433px;
+  max-width: 100%;
 }
 
 .review-card-content p {
@@ -762,17 +759,112 @@ footer .footer-bottom {
   padding: 29px 25px;
 }
 
-/* Responsive start */
-
-/* Desktop first */
-
-@media only screen and (min-width: 1920px) {
-}
-
-@media only screen and (min-width: 1600px) {
-}
+/* Responsive start Desktop first  */
 
 @media only screen and (min-width: 1440px) {
+  /* Header start */
+
+  .navbar .navbar-nav {
+    gap: 35px;
+  }
+
+  /* Header end */
+
+  /* customer start */
+
+  /* customer end */
+}
+
+@media only screen and (min-width: 1320px) {
+  /* Header start */
+
+  .navbar .navbar-nav {
+    gap: 32px;
+  }
+
+  /* Header end */
+
+  /* Banner start */
+
+  .banner {
+    padding: 299px 0 199px 0;
+  }
+
+  .banner-content span {
+    font-size: 32px;
+  }
+
+  .banner-content h1 {
+    font-size: 82px;
+    margin-bottom: 32px;
+  }
+
+  .banner-content p {
+    font-size: 21px;
+  }
+
+  /* Banner end */
+
+  /* Top up start */
+
+  .top-up .top-up-inner {
+    padding: 26px 48px 29px;
+  }
+
+  .top-up-inner .top-up-form {
+    gap: 21px;
+  }
+
+  /* Top up end */
+
+  /* Mobile bill start */
+
+  .mobile-bill {
+    padding: 112px 0 90px 0;
+  }
+
+  .mobile-bill-inner .mobile-bill-heading {
+    font-size: 42px;
+    margin: 0 auto 22px auto;
+  }
+
+  .mobile-bill-inner .mobile-bill-point {
+    font-size: 19px;
+  }
+
+  .mobile-bill-inner .mobile-bill-card {
+    padding: 80px 10px 20px 10px;
+  }
+
+  .mobile-bill-card .card-content {
+    margin-bottom: 32px;
+  }
+
+  /* Mobile bill end */
+
+  /* Customer start */
+
+  .customers {
+    padding: 90px 0;
+  }
+
+  .customers .review-card {
+    padding: 0 20px;
+  }
+
+  .review-card .review-card-content {
+    padding: 37px 29px;
+  }
+
+  .review-card-content p {
+    margin: 15px 0 25px 0;
+  }
+
+  .profile img {
+    max-width: 69px;
+  }
+
+  /* Customer end */
 }
 
 @media only screen and (min-width: 1200px) {
