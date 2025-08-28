@@ -1061,10 +1061,6 @@ footer .footer-bottom {
     flex-wrap: wrap;
   }
 
-  .top-up-form .form-btn {
-    margin-top: 32px;
-  }
-
   /* Top up end */
 
   /* Your sim start */
@@ -1099,27 +1095,37 @@ footer .footer-bottom {
 
   .borderless-inner {
     text-align: center;
-}
+  }
 
-.borderless-inner .borderless-content {
+  .borderless-inner .borderless-content {
     max-width: 100%;
-}
+  }
 
-    .borderless-inner .borderless-video {
-      margin: 52px auto 0 auto;
-    }
+  .borderless-inner .borderless-video {
+    margin: 52px auto 0 auto;
+  }
 
   /* Borderless end */
 
   /* Footer start */
   footer .footer-bottom {
     text-align: center;
+  }
+
+  .footer-bottom .footer-social-icon {
+    margin-top: 32px;
+  }
+  /* Footer end */
 }
 
-.footer-bottom .footer-social-icon {
-  margin-top: 32px;
-}
-  /* Footer end */
+@media only screen and (max-width: 849px) {
+  /* Top up start */
+
+  .top-up-form .form-btn {
+    margin-top: 32px;
+  }
+
+  /* Top up end */
 }
 
 @media only screen and (max-width: 768px) {
