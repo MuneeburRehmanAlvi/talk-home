@@ -144,6 +144,10 @@ header .navbar {
   transform: translateX(-5px);
 }
 
+.sign-in-mobile {
+  display: none;
+}
+
 .navbar-nav .nav-btn {
   display: flex;
   flex-direction: row;
@@ -209,6 +213,10 @@ header .navbar {
 .banner-content .banner-btn {
   padding: 22px 44px;
   border-radius: 6px;
+}
+
+.nav-btn {
+  display: none;
 }
 
 /* Banner End */
@@ -871,8 +879,8 @@ footer .footer-bottom {
   }
 
   .navbar-nav .nav-link {
-    font-size: 16px;;
-}
+    font-size: 16px;
+  }
 
   /* Header end */
 
@@ -988,6 +996,114 @@ footer .footer-bottom {
 }
 
 @media only screen and (max-width: 992px) {
+  /* Header start */
+
+  header .navbar {
+    padding: 47px 40px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-collapse {
+    position: relative;
+    background-color: #273240;
+    border-radius: 6px;
+    overflow: hidden; /* Prevents flicker from dropdowns */
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+
+  .navbar .navbar-nav {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .navbar-nav .sign-in {
+    display: none;
+  }
+
+  .navbar .sign-in-mobile {
+    display: block;
+    margin-left: auto;
+  }
+
+  .navbar .nav-btn {
+    display: none;
+  }
+
+  /* Header end */
+
+  /* Banner start */
+
+  .banner {
+    padding: 220px 0 160px 0;
+  }
+
+  .banner-content .banner-btn {
+    display: none;
+  }
+
+  .nav-btn {
+    display: block;
+  }
+
+  /* Banner end */
+
+  /* Top up start */
+
+  .top-up-inner .top-up-form {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .top-up-form .form-btn {
+    margin-top: 32px;
+  }
+
+  /* Top up end */
+
+  /* Your sim start */
+
+  .your-sim .your-sim-inner {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .your-sim-inner .sim-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .your-sim-inner .sim-icon img {
+    rotate: 90deg;
+  }
+
+  .your-sim-inner .your-sim-content {
+    margin-bottom: 32px;
+  }
+
+  .your-sim-inner .your-sim-btn {
+    margin-bottom: 30px;
+  }
+
+  /* Your sim end */
+
+  /* Footer start */
+  footer .footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom .footer-social-icon {
+  margin-top: 32px;
+}
+  /* Footer end */
 }
 
 @media only screen and (max-width: 768px) {
