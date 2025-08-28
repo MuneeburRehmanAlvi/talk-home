@@ -1095,6 +1095,22 @@ footer .footer-bottom {
 
   /* Your sim end */
 
+  /* Borderless start */
+
+  .borderless-inner {
+    text-align: center;
+}
+
+.borderless-inner .borderless-content {
+    max-width: 100%;
+}
+
+    .borderless-inner .borderless-video {
+      margin: 52px auto 0 auto;
+    }
+
+  /* Borderless end */
+
   /* Footer start */
   footer .footer-bottom {
     text-align: center;
