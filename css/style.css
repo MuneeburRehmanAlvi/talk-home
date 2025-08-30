@@ -723,7 +723,7 @@ footer .footer-bottom {
 }
 
 .footer-bottom ul li a:hover {
-  color: #e22fdd;
+  color: #dde22f;
   transition: all 0.3s ease;
 }
 
@@ -1002,8 +1002,13 @@ footer .footer-bottom {
     padding: 47px 40px;
   }
 
+  .navbar-toggler {
+    border: none;
+  }
+
   .navbar-toggler:focus {
     box-shadow: none;
+    border: none;
   }
 
   .navbar-collapse {
@@ -1129,6 +1134,60 @@ footer .footer-bottom {
 }
 
 @media only screen and (max-width: 768px) {
+  /* Banner start */
+
+  .banner {
+    background-image: url(/src/images/mobile-banner.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 235px 0 98px 0;
+  }
+
+  .banner-content span {
+    font-size: 17px;
+  }
+
+  .banner-content h1 {
+    font-size: 49px;
+    line-height: normal;
+    margin-bottom: 29px;
+  }
+
+  .banner-content p {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  /* Banner end */
+
+  /* Top up start */
+
+  .top-up .top-up-inner {
+    width: 100%;
+    margin: -0px auto 0 auto;
+  }
+
+  /* Top up end */
+
+  /* Mobile bill start */
+
+  .mobile-bill {
+    padding: 63px 0;
+  }
+
+  .mobile-bill-inner .mobile-bill-heading {
+    font-size: 27px;
+    line-height: 32.4px;
+    margin-bottom: 35px;
+  }
+
+  .mobile-bill-inner .mobile-bill-point {
+    font-size: 14px;
+    line-height: 22.75px;
+  }
+
+  /* Mobile bill end */
 }
 
 @media only screen and (max-width: 576px) {
