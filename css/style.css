@@ -1188,6 +1188,17 @@ footer .footer-bottom {
   }
 
   /* Mobile bill end */
+
+  /* Footer start */
+
+  .footer-bottom .footer-bottom-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+  /* Footer end */
 }
 
 @media only screen and (max-width: 576px) {
