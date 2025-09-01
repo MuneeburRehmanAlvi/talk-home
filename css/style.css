@@ -1225,7 +1225,56 @@ footer .footer-bottom {
 
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 420px) {
+
+  /* General btn */
+  .general-btn {
+    font-size: 13px;
+  }
+
+  /* Header start */
+
+      header .navbar {
+        padding: 30px;
+    }
+
+  /* Header end */
+
+  /* Banner start */
+
+      .banner-content h1 {
+        font-size: 39px;
+        line-height: normal;
+        margin-bottom: 22px;
+    }
+
+        .banner-content p {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+  /* Banner end */
+
+  /* Your sim start */
+
+  .your-sim-content p {
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 20px;
+}
+
+.your-sim-content h3 {
+    font-size: 20px;
+    line-height: 30.4px;
+}
+
+  /* Your sim end */
+
+  /* Top btn */
+#backToTopBtn  {
+    padding: 23px 20px;
+}
+
 }
 
 /* Responsive end */
