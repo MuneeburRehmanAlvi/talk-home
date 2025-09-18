@@ -495,7 +495,7 @@ header .navbar {
 }
 
 .borderless-inner .borderless-video {
-  background-image: url(src/images/borderless-image.png);
+  background-image: url(../src/images/borderless-image.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
